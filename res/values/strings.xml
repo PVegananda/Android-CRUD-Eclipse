@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Masukkan Data : </string>
+    <string name="alamat">Masukkan Alamat</string>
+    <string name="app_name">Database CRUD SQL Pasyah</string>
+    <string name="btnAddtxt">Add</string>
+    <string name="namaLabel">Nama</string>
+    <string name="alamatLabel">Alamat</string>
+    <string name="nomorLabel">No.</string>
+    <string name="btnGetRow">Get</string>
+    <string name="btnUpdateRow">Update</string>
+    <string name="ketUpdate">Sebelum mengubah data,
+     pilih dulu baris ke berapa
+     data yang akan diubah</string>
+    <string name="ketAmbilBaris">Pilih Baris Untuk Di Edit :
+    </string>
+    <string name="ketDelete">Tulis no. baris
+     yang akan di delete,
+     lalu klik tombol &quot;delete&quot;</string>
+    <string name="btnDel">Delete</string>
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:background="#ffffff"
+         >
+         
+         
+     <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/hello_world"
+         android:textColor="#000000"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="50dp"
+         android:layout_marginBottom="20dp"
+         android:textSize="18px"
+         />
+
+     
+     <LinearLayout android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/linearLayout1"
+         android:layout_marginLeft="50dp">
+      
+     <EditText android:id="@+id/inNama"
+         android:layout_height="wrap_content"
+         android:layout_width="150dip"
+         android:layout_marginLeft="0dp"
+         android:hint="Nama"
+         android:paddingLeft="5dp"
+         android:background="@drawable/border"></EditText>
+     
+     <EditText android:id="@+id/inHobi"
+         android:layout_height="wrap_content"
+         android:layout_width="200dip"
+         android:layout_marginLeft="15dp"
+         android:hint="Alamat"
+         android:paddingLeft="5dp"
+         android:background="@drawable/border"></EditText>
+     
+     
+ 	</LinearLayout>
+ 	
+     <Button 
+         android:layout_width="60dp"
+         android:id="@+id/btnAdd"
+         android:layout_height="30dp"
+         android:text="@string/btnAddtxt"
+         android:layout_gravity="right"
+         android:layout_marginRight="70dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="20dp"
+         android:textColor="#FFFFFF"
+         android:background="@drawable/button_border"
+         android:switchPadding = "10dp"
+         ></Button>
+     
+     <View android:layout_width="wrap_content"
+         android:id="@+id/view2"
+         android:layout_height="1dip"
+         android:background="#000000"></View>
+     
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView1"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="50dp"
+         android:layout_marginBottom="20dp"
+         android:layout_marginRight="70dp"
+         android:gravity="center"
+         android:textColor="#000000"
+         android:textSize="15px"
+         android:text="@string/ketUpdate"></TextView>
+     
+     <View android:layout_width="wrap_content"
+         android:id="@+id/view2"
+         android:layout_height="1dip"
+         android:background="#FFFFFF"></View>
+ 
+ <LinearLayout android:layout_width="match_parent"
+         android:id="@+id/linearLayout2"
+         android:layout_height="wrap_content">
+     
+     <TextView android:layout_width="wrap_content"
+         android:text="@string/ketAmbilBaris"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView2"
+         android:textColor="#000000"
+         android:textSize="18px"
+         android:layout_marginLeft="50dp"></TextView>
+     
+     <EditText android:layout_height="wrap_content"
+         android:id="@+id/inGetId"
+         android:layout_width="50dip"
+         android:layout_marginLeft="10dp"
+         android:hint="No"
+         android:paddingLeft="5dp"
+         android:background="@drawable/border"></EditText>
+    
+    <Button android:layout_width="60dp"
+         android:layout_height="27dp"
+         android:text="@string/btnGetRow"
+         android:layout_marginLeft="10dp"
+         android:id="@+id/btnGetId"
+         android:textColor="#FFFFFF"
+         android:background="@drawable/button_border"
+         ></Button>
+    
+ </LinearLayout>
+ 
+ <LinearLayout android:layout_width="match_parent"
+         android:id="@+id/linearLayout3"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp">
+     
+     <EditText android:layout_height="wrap_content"
+         android:layout_width="150dip"
+         android:id="@+id/inUpdateNama"
+         android:textColor="#000000"
+         android:textSize="18px"
+         android:layout_marginLeft="50dp"
+         android:background="@drawable/border"></EditText>
+     
+     <EditText android:layout_height="wrap_content"
+         android:layout_width="200dip"
+         android:id="@+id/inUpdateAlamat"
+         android:textColor="#000000"
+         android:textSize="18px"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/border"></EditText>
+     
+     
+ 
+ </LinearLayout>
+ 
+     <Button android:layout_width="80dp"
+         android:layout_height="30dp"
+         android:text="@string/btnUpdateRow"
+         android:id="@+id/btnUpdate"
+         android:textColor="#FFFFFF"
+         android:layout_gravity="right"
+         android:layout_marginRight="70dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/button_border"></Button>
+     
+     <View android:layout_width="wrap_content"
+         android:id="@+id/view2"
+         android:layout_height="1dip"
+         android:background="#000000"></View>
+     
+     <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/textView3"
+         android:text="@string/ketDelete"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="50dp"
+         android:layout_marginBottom="20dp"
+         android:layout_marginRight="70dp"
+         android:gravity="center"
+         android:textColor="#000000"
+         android:textSize="15px"></TextView>
+    
+ <LinearLayout android:id="@+id/linearLayout4"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_marginBottom="20dp"
+         android:gravity="center">
+     
+     <EditText 
+         android:layout_height="wrap_content"
+         android:layout_width="50dip"
+         android:id="@+id/idDelete"
+         android:textColor="#000000"
+         android:textSize="18px"
+         android:hint="No"
+         android:paddingLeft="5dp"
+         android:background="@drawable/border"></EditText>
+     
+     <Button android:layout_width="70dp"
+         android:layout_height="30dp"
+         android:id="@+id/btnDel"
+         android:text="@string/btnDel"
+         android:textColor="#FFFFFF"
+         android:layout_marginLeft="10dp"
+         
+         android:background="@drawable/button_border"></Button>
+ </LinearLayout>
+     
+     <View android:layout_width="wrap_content"
+         android:id="@+id/view2"
+         android:layout_height="1dip"
+         android:background="#000000"></View>
+     
+     <TableLayout android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/tabel_data"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="20dp"
+         android:textColor="#000000"
+         android:textSize="24px">
+     
+     <TableRow android:id="@+id/tableRow1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+     
+     <TextView android:layout_height="wrap_content"
+         android:layout_width="50dip"
+         android:text="@string/nomorLabel"
+         android:id="@+id/no_id"></TextView>
+     
+     <TextView android:layout_height="wrap_content"
+         android:layout_width="100dip"
+         android:text="@string/namaLabel"
+         android:id="@+id/nama_id"></TextView>
+     
+     <TextView android:layout_width="100dip"
+         android:layout_height="wrap_content"
+         android:text="@string/alamatLabel"
+         android:id="@+id/alamat_id"></TextView>
+ 
+ </TableRow>
+ </TableLayout>
+ </LinearLayout>
